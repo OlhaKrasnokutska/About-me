@@ -7,12 +7,14 @@
 body {
   margin: 60px auto;
   max-width: 800px;
+  font-family: "Times New Roman", Times, serif;
 }
 
 h1,
 h2,
 h3 {
   margin: 0;
+  font-weight: bold;
 }
 
 h1 {
@@ -22,6 +24,7 @@ h1 {
 
 h2 {
   font-size: 48px;
+  margin-top: 25px;
 }
 
 h3 {
@@ -36,6 +39,11 @@ p {
   font-size: 18px;
   line-height: 1.5;
   text-align: center;
+}
+
+img {
+  border: 2px solid #18697c;
+  margin-top: 35px;
 }
 
 .navigation-links {
@@ -60,6 +68,14 @@ p {
   background: var(--primary-color);
   box-shadow: var(--box-shadow);
   color: white;
+  width: 200px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.primary-link:hover {
+  color: #f6f870;
+  text-decoration: underline;
 }
 
 .secondary-link {
@@ -69,6 +85,9 @@ p {
   text-transform: capitalize;
   color: var(--primary-color);
   border: 1px solid var(--primary-color);
+  width: 200px;
+  text-align: center;
+  font-weight: bold;
 }
 
 .homepage-link {
