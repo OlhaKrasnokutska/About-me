@@ -1,12 +1,12 @@
 :root {
   --primary-color: #18697c;
-  --secondary-color: #f6f870;
+  --secondary-color: #bad2d8;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
 
 body {
   margin: 60px auto;
-  max-width: 800px;
+  max-width: 1000px;
   font-family: "Times New Roman", Times, serif;
 }
 
@@ -39,11 +39,17 @@ p {
   font-size: 18px;
   line-height: 1.5;
   text-align: center;
+  font-weight: 500;
 }
 
 img {
   border: 2px solid #18697c;
   margin-top: 35px;
+}
+
+.center {
+  display: block;
+  margin: 30px auto;
 }
 
 .navigation-links {
@@ -78,18 +84,6 @@ img {
   text-decoration: underline;
 }
 
-.secondary-link {
-  border-radius: 4px;
-  padding: 20px 15px;
-  text-decoration: none;
-  text-transform: capitalize;
-  color: var(--primary-color);
-  border: 1px solid var(--primary-color);
-  width: 200px;
-  text-align: center;
-  font-weight: bold;
-}
-
 .homepage-link {
   color: var(--primary-color);
   text-align: center;
@@ -114,4 +108,26 @@ img {
 
 .email-link:hover {
   text-decoration: underline;
+}
+
+@media (max-width: 600px) {
+  body {
+    margin: 60px 15px;
+  }
+  h1 {
+    font-size: 35px;
+  }
+
+  h2 {
+    font-size: 30px;
+  }
+
+  h3 {
+    font-size: 25px;
+  }
+
+  .primary-link {
+    font-weight: 100;
+    font-size: small;
+  }
 }
