@@ -1,6 +1,6 @@
 :root {
-  --primary-color: #18697c;
-  --secondary-color: #bad2d8;
+  --primary-color: #028dad;
+  --secondary-color: #ddf3f8e8;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
 
@@ -23,13 +23,14 @@ h1 {
 }
 
 h2 {
+  font-family: "Dancing Script", cursive;
   font-size: 48px;
   margin-top: 25px;
 }
 
 h3 {
   font-size: 24px;
-  opacity: 0.7;
+  opacity: 0.5;
 }
 
 p {
@@ -38,13 +39,27 @@ p {
   border-radius: 4px;
   font-size: 18px;
   line-height: 1.5;
-  text-align: center;
+  text-align: left;
   font-weight: 500;
 }
 
 img {
   border: 2px solid #18697c;
   margin-top: 35px;
+}
+
+nav {
+  font-weight: 800;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.bg-mycolor {
+  background-color: var(--secondary-color);
+}
+
+.mail {
+  border: 0px;
 }
 
 .center {
