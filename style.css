@@ -54,6 +54,10 @@ nav {
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 
+.github{
+  color: var(--primary-color);
+}
+
 .bg-mycolor {
   background-color: var(--secondary-color);
 }
