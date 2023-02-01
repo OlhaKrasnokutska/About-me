@@ -41,6 +41,7 @@ p {
   line-height: 1.5;
   text-align: left;
   font-weight: 500;
+  margin: 0 auto;
 }
 
 img {
@@ -52,6 +53,11 @@ nav {
   font-weight: 800;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+ul {
+  background-color: var(--secondary-color);
+  margin: 0 auto;
 }
 
 .github {
